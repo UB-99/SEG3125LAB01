@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="styles.css">
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+
+
+</style>
+<head>
+<body>
+
+
+<div class="myDiv">
+  <h2>Youtube Website Survey</h2>
+  
+</div>
+
+
+
+<!--A link to the website of your choice (where the UI to be evaluated is)-->
+<p><a href="https://www.youtube.com/" target="_blank">Where the UI to be evaluated is</a></p>
+
+<!--An image of the website you are evaluating which also serves as a link to the website.-->
+      <a href="https://www.youtube.com/" target = "_blank">
+         <img alt="YOUTUBE" src="https://cdn.havecamerawilltravel.com/photographer/files/2020/01/youtube-logo-new-1068x510.jpg"
+         width=150" height="70">
+      </a>
+
+	  
+	  
+<!--A form (<form> tag) containing at least 6 questions of different types related to the
+evaluation of the website:-->
+	  <form action="index.php" name="my form" method="POST">
+	  
+	  <!--A text type question (e.g. user must type in the answer) -->
+	  How did you find this website? <input type="text" name="firstname"><br>
+	  
+	  <!--A single choice question (radio button) -->
+	  <br>
+	  I would recommend this website on a scale of 1 to 5 (where 1 is "not at all" and five is "most definitively")<br>
+	  <input type="radio" name="num" value="1">1<br>
+	  <input type="radio" name="num" value="2">2<br>
+	  <input type="radio" name="num" value="3">3<br>
+	  <input type="radio" name="num" value="4">4<br>
+	  <input type="radio" name="num" value="5">5<br>
+	  
+	  
+	  <!--A likert type question (e.g. strongly agre -->
+	  <br>
+	  This web site is easy to use:<br>
+	  <input type="radio" name="num" value="1">Strongly Agree<br>
+	  <input type="radio" name="num" value="2">Agree<br>
+	  <input type="radio" name="num" value="3">Disagree<br>
+	  <input type="radio" name="num" value="4">Strongly Disagree<br>
+	  
+	  
+	  <!--• A multi-selection type question (several boxes can be selected) -->
+	  <br>
+	  I like these things about the website: <br>
+	  <input type="checkbox" name="Apples" value="Apples">The colors<br>
+	  <input type="checkbox" name="Oranges" value="Oranges">The atmosphere<br>	  
+	  <input type="checkbox" name="Bananas" value="Bananas">The background<br>
+	  <input type="checkbox" name="Bananas" value="Bananas">The name<br>
+	  <input type="checkbox" name="Bananas" value="Bananas">The font<br>
+	  
+	  
+	  <!-- A single choice question (single selection list)-->
+	  <br>
+	  Would you come back to this website?<br>
+	  <select name="favorite">
+			<option value="Apples" selected="selected">Yes</option>
+			<option value="Oranges"> No</option>
+			<option value="Bananas"> Maybe if you update it</option><br>
+			
+	  
+	  <!--COMMENTS -->
+	  <br>
+	  Comments:<br>
+		<textarea rows="5" cols="45"/>Please write your coments on how to improve the website here:
+		</textarea>
+			
+	  <!-- -->
+	  <br>
+	  
+			
+	  </form>
+	  
+	  <!--SUBMITTING -->
+	  <br><br>
+	  <input type="submit" value="submit the questionaire"/>
+	  
+	  
+	  
+<footer>
+<br>
+<hr>
+<p>Website designed by YOUTUBE DESIGN TEAM</p>
+<p><a href="mailto:YoutubeDesignTeam@hotmail.com">YoutubeDesignTeam@hotmail.com</a></p>
+</footer>
+
+
+</body>
+</html>
